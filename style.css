@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+h1{
+   
+    background-color: #AB4E68;
+    font-size: 4rem;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+
+}
+
+.choics{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 1.5rem;
+  align-items: center;
+
+
+}
+.choic{
+    width: 165px;
+    height: 165px;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.choic:hover{
+    cursor: pointer;
+   background-color: black;
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 500px;
+    
+}
+.score-bord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+
+#user-score #com-score #draw-socore #played{
+    font-size: 8rem;
+}
+
+.mess-container{
+    margin-top: 5rem;
+   
+ 
+}
+#mess{
+    font-size: 2rem;
+   
+    background-color: #533745;
+    display: inline;
+
+    height: 20vh;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;  
+    border-color: black;
+    border: solid;
+    
+}
+.reset{
+    margin-top: 4rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 40px;
+    background-color: #AB4E68;
+    color: white;
+    font-size: 1rem;
+    display: inline;
+
+    justify-content: center;
+    justify-items: center;
+}
