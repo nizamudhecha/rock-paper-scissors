@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Rock-Paper-Scissors</title>
 </head>
+
 <body>
-    <h1>Rock-Paper-Scissors</h1>
-    <div class="choics">
-        <div class="choice" id="rock">
-            <img src="rock.png" alt="">
+    <div class="container">
+        <h1>Rock-Paper-Scissors</h1>
+        <div class="choics">
+            <div class="choice" id="rock">
+                <img src="rock.png" alt="">
+            </div>
+            <div class="choice" id="paper">
+                <img src="paper.png" alt="">
+            </div>
+            <div class="choice" id="scissors">
+                <img src="scissors.png" alt="">
+            </div>
         </div>
-        <div class="choice" id="paper">
-            <img src="paper.png" alt="">
+        <div class="mess-container">
+            <p id="mess">
+                Play your move
+
+            </p>
+
         </div>
-        <div class="choice" id="scissors">
-            <img src="scissors.png" alt="">
-        </div>
-    </div>
-    <div class="score-bord">
-        <div class="scor">
-            <p id="user-score">0</p>
-            <p>You</p>
-        </div>
-        <div class="scor">
-            <p id="com-score">0</p>
-            <p>Com</p>
-        </div>
-        <div class="scor">
-            <p id="draw-score">0</p>
-            <p>Draw</p>
-        </div>
-        <!-- <div class="scor">
+        <div class="score-bord">
+            <div class="scor">
+                <p id="user-score">0</p>
+                <p>You</p>
+            </div>
+            <div class="scor">
+                <p id="com-score">0</p>
+                <p>Com</p>
+            </div>
+            <div class="scor">
+                <p id="draw-score">0</p>
+                <p>Draw</p>
+            </div>
+            <!-- <div class="scor">
             <p id="played">0</p>
             <p>Game Played</p>
         </div> -->
-    </div>
-    <div class="mess-container">
-        <p id="mess">
-            Play your move
+        </div>
 
-        </p>
-     
+        <button class="reset">Reset Game</button>4
     </div>
-    <button class="reset">Reset Game</button>
     <script src="script.js"></script>
 </body>
+
 </html>
